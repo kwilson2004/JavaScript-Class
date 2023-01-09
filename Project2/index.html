@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+</head>
+<body>
+    <header class="myname">Kyle Wilson</header>
+    <h1>Project 2</h1>
+
+    <p>
+        <!-- This is internal JS altho convenient can get very cluttered and lost in the html code down the line.-->
+        <script type="text/javascript">
+            document.write("This statement is js within the html file.");
+        </script>
+    </p>
+    <br>
+    <p>
+        <img src="https://images.ctfassets.net/j95d1p8hsuun/34VAP8xIPkZNY5eflJ4rWw/d073c331d740f9c4c9908ff8147dcf1a/NW_Brimstone_Sands_KA_1920x1080_WEB.jpg" 
+        width="1280" 
+        height="720" 
+        alt="My favorite game.">
+    </p>
+    <p>This is a public asset fromt the new world website , I have permission to use for an example. 
+        Credit to  <a href = "https://www.newworld.com/en-us/game/media#ags-MediaPopup">https://www.newworld.com/en-us/game/media#ags-MediaPopup</a> in the wallpaper section.
+    </p>
+    <br>
+    <p>
+        <!-- This is the external JS code simple and easy to find with the type tag and src name.-->
+        <script type="text/javascript" src="project2.js"></script>
+    </p>
+    <br>
+    <p id="WOS"></p> 
+    <p>
+        <!-- This would be a example of displaying text with out document.write()-->
+        <script>
+            document.getElementById("WOS").innerHTML = "What makes it even better is its a very enriching experience giving the user unlimited potential to do what they want.";
+        </script>
+    </p>
+</body>
+</html>

@@ -1,0 +1,2 @@
+//This is how you can write to a web page using the document.write() method.
+document.write("The fun part of this game is its a fictional MMORPG that requires the user to strategize before pushing into a area or expidition.");

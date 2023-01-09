@@ -1,0 +1,1 @@
+document.write("I love writing JavaScript, and using external files!"); //This writes out my opinion or lesson.

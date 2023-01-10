@@ -12,4 +12,4 @@ let total = `Total: ${(milk / tax)}`;
 document.write(stext + linebr +  total);
 
 //This changes the background color to red.
-document.body.style.backgroundColor = "red";
+document.body.style.backgroundColor = '#ADD8E6';

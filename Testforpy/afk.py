@@ -9,6 +9,3 @@ while True:
     pag.moveTo(x,y,.5)
     pag.leftClick(.5)
     time.sleep(2)
-
-
-
